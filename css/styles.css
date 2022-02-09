@@ -65,7 +65,7 @@ body {
 /* Логотип */
 
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.2;
@@ -138,6 +138,8 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+
+  cursor: pointer;
 }
 .button.primary:hover {
   background-color: #188ce8;
@@ -150,6 +152,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+
+  cursor: pointer;
 }
 .button.secondary:hover {
   background-color: var(--accent-color);
@@ -183,7 +187,8 @@ body {
 
 .project-item {
   color: var(--primary-text-color);
- 
-font-size: 16px;
-line-height: 1.88;
-letter-spacing: 0.03em;
+
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
