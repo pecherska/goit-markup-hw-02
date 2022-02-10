@@ -19,9 +19,10 @@
 
 body {
   color: var(--primary-text-color);
-  background-color: var(--bg-color-primary);
+  background-color: var(--primary-white-color);
 
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
@@ -33,13 +34,12 @@ body {
 
 /* Шапка сайта */
 .header {
-  background-color: var(--primary-white-color);
 }
 .nav-site .link {
   color: var(--title-text-color);
 
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -49,7 +49,7 @@ body {
   color: var(--accent-color);
 }
 
-.nav-site .link.curent {
+.nav-site .link.current {
   color: var(--accent-color);
 }
 
@@ -87,8 +87,12 @@ body {
 
 /* Герой */
 
+.hero {
+  background-color: var(--bg-color-footer);
+}
+
 .hero-title {
-  color: var(--title-text-color);
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -123,14 +127,21 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+
+  text-align: center;
 }
 
 .position {
   font-size: 16px;
   line-height: 1.19;
+
+  text-align: center;
 }
 
 /* Кнопки */
+.button {
+  text-align: center;
+}
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -160,6 +171,7 @@ body {
 }
 
 /* Футер */
+
 .address {
   color: var(--primary-white-color);
 }
@@ -175,8 +187,7 @@ body {
 
 /* Проекты */
 
-.project {
-  background-color: var(--primary-white-color);
+.project-type {
   color: var(--title-text-color);
 
   font-weight: 700;
