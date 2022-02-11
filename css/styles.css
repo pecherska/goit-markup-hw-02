@@ -33,8 +33,7 @@ body {
 }
 
 /* Шапка сайта */
-.header {
-}
+
 .nav-site .link {
   color: var(--title-text-color);
 
@@ -60,6 +59,11 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
 }
 
 /* Логотип */
@@ -118,6 +122,8 @@ body {
 
   font-weight: 700;
   line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .team {
   background-color: var(--bg-color-secondar);
@@ -168,21 +174,27 @@ body {
 }
 .button.secondary:hover {
   background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* Футер */
 
 .address {
   color: var(--primary-white-color);
+  font-style: normal;
+}
+
+.footer {
+  background-color: var(--bg-color-footer);
+}
+.address > a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .contact {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-}
-
-.footer {
-  background-color: var(--bg-color-footer);
 }
 
 /* Проекты */
@@ -202,4 +214,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+}
+
+.project-link {
+  text-decoration: none;
 }
