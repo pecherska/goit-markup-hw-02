@@ -158,7 +158,8 @@ body {
 
   cursor: pointer;
 }
-.button.primary:hover {
+.button.primary:hover,
+.button.primary:focus {
   background-color: #188ce8;
 }
 
@@ -172,7 +173,8 @@ body {
 
   cursor: pointer;
 }
-.button.secondary:hover {
+.button.secondary:hover,
+.button.secondary:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
