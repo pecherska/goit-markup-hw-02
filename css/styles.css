@@ -123,6 +123,9 @@ body {
   font-weight: 700;
   line-height: 1.14;
   font-size: 14px;
+}
+
+.title.item {
   text-transform: uppercase;
 }
 .team {
